@@ -74,11 +74,3 @@ out  = drsip(model, params);
 ```
 
 
-
-
-
-### Reference
-[preprint] Yiyang Liu, Haoyang Liu, Hantao Nie, Zaiwen Wen. A DRS-based Path-following Algorithm for Linear
-Programming, 2022.
-
-[preprint] Hantao Nie. An operator splitting based interior-point method for conic linear programming, 2024.
