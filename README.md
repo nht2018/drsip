@@ -10,7 +10,7 @@ where $\mathcal{K} = \mathcal{K}_1 \times \mathcal{K}_2 \times \cdots \times \ma
 irrducible closed convex cone in $\mathbb{R}^{n_i}$. Some common cones supported in this package includes
 
 * Positive orthant $\mathbb{R}_+^n = \{x \in \mathbb{R}^n | x_i \geq 0, i = 1, 2, \cdots, n\}$,
-* Positive semidefinite matrices
+* Positive semidefinite matrices (comming soon!)
 $\mathbb{S}_+^r = \{X \in \mathbb{S}^{r} \mid X \succeq 0 \}$ ,
 * Second order cone
 $\mathcal{Q} = \{(x_0, \bar{x}) \in \mathbb{R}^r \mid x_0 \geq \|\bar{x}\|_2\}$,
