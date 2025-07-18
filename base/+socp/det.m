@@ -1,0 +1,10 @@
+%%
+%  Author: Hantao Nie (nht@pku.edu.cn)
+%  Date: 2023-11-27 20:19:49
+%  LastEditors: Hantao Nie (nht@pku.edu.cn)
+%  LastEditTime: 2023-11-27 20:21:19
+%  Copyright (c) 2023, Hantao Nie, Peking University. 
+%   
+function out = det(X, cone_size)
+    out = mexcone_q_ops(full(X), 'det', cone_size);
+end

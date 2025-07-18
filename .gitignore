@@ -1,0 +1,7 @@
+*.txt
+*.log
+*.mat
+*.out
+*.mexa64
+*.mexmaci64
+*.pyc
