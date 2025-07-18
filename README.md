@@ -17,27 +17,6 @@ $\mathcal{Q} = \{(x_0, \bar{x}) \in \mathbb{R}^r \mid x_0 \geq \|\bar{x}\|_2\}$,
 * Rotated second order cone
 $\mathcal{Q}^r = \{(x_0, x_1 \bar{x}) \in \mathbb{R}^r \mid 2 x_0 x_1 \geq \|\bar{x}\|_2^2, x_0, x_1 \geq 0\}$
 
-### Algorithm 
-
-DRSIP algorithm is based on the operator splitting technique. The algorithm transforms the penalized problem 
-$$
-\min \overbrace{\langle c, x\rangle + \delta_{\{Ax=b\}}}^{h(x)} + \mu g(x)
-$$
-into an equivalent DRS residual mapping
-$$
- F(z, \mu) = \mathrm{prox}_{\gamma \mu g}(z) - \mathrm{prox}_{\gamma h}( 2\mathrm{prox}_{\gamma \mu g}(z) - z).
-$$
-Then apply a Newton-type method with path-following strategy to solve the DRS residual mapping. The following figure shows the solution path and iterateion scheme of the DRSIP algorithm. 
-
-<div align="center">
-    <img src="figs/solution_path.jpg" alt="First Image" width="45%"/>
-    <img src="figs/2iters.jpg" alt="Second Image" width="45%"/>
-</div>
-
-The main loop of the DRSIP algorithm is shown as follows:
-<img src="figs/algo_loop.jpg" alt="algo_loop" style="zoom:100%;" />
-
-Refer to the reference for more details.
 
 ### Demo
 
